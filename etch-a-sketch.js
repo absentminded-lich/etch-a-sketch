@@ -13,8 +13,8 @@ function createResizeButton(width, height = width) {
     const btn = document.createElement('button');
     btn.style.width = width;
     btn.style.height = height;
-    btn.textContent = 'Resize';
-    btn.style.fontSize = width / 5;
+    btn.innerHTML = '<i class="fa fa-expand"></i>';
+    btn.style.fontSize = width / 2.5;
 
     btn.addEventListener('click', () => {
         const gridSize = prompt('Enter a new grid size');

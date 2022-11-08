@@ -10,7 +10,3 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-
-.tile-on {
-    background-color: blue;
-}

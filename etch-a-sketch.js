@@ -21,6 +21,8 @@ function createResizeButton(width, height = width) {
         if (gridSize >= 1 && gridSize <= 100) {
             deleteBoard();
             populateBoard(getBoard(), gridSize);
+        } else {
+            alert('Grid size must be between 1 and 100');
         }
     });
 
